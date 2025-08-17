@@ -19,9 +19,6 @@
     width: 350px !important;
   }
 
-  .market-pic{
-    width: 456px !important;
-  }
    .avatar{
     top:  -380px!important;
     left: 440px !important;
@@ -34,10 +31,6 @@
     width: 300px !important;
   }
 
-  .market-pic{
-    width: 456px !important;
-  }
-   
   .avatar{
     top:  -410px!important;
     left: 320px !important;
@@ -49,9 +42,7 @@
     width: 250px !important;
   }
 
-  .market-pic{
-    width: 696px !important;
-  }
+ 
 
     .avatar{
     top:  -460px!important;
@@ -63,24 +54,20 @@
   .box {
     width: 250px !important;
   }
-   .market-pic{
-    width: 516px !important;
-     
+ 
 } 
 .avatar{
     top:  -460px!important;
     left: 10px !important;
   }
-}
+
 
 @media screen and (max-width: 576px) {
 .box {
     width: 450px !important;
   }
 
-   .market-pic{
-    width:431px !important;
-   }
+  
 .ws-h4{
     font-size: 14px !important;
     width: 300px !important;
@@ -89,7 +76,6 @@
     font-size: 20px
 }
 } 
-
 
 .entext{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,7 +202,7 @@ ul{
 }
 
 .market-pic{
-    width: 546px;
+    width: 100%;
 }
 
  .tik-icon li::before{
