@@ -41,25 +41,22 @@
 
 @media screen and (max-width: 768px) {
  
-} 
+
 .avatar{
     top:  -460px!important;
     left: 10px !important;
   }
-
-
-@media screen and (max-width: 576px) {
-
-
-  
-.ws-h4{
+.slider-pic{
+    background-image: url(../image/mobile.jpg) !important;
+}
+.d-h4{
     font-size: 14px !important;
-    width: 300px !important;
 }
-.ws-h1{
-    font-size: 20px
+.d-h1{
+    font-size: 25px;
 }
-} 
+}
+
 
 .entext{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -131,7 +128,7 @@ ul{
 .search-box i{
     position: absolute;
     left: 10px;
-   top: 15px;
+    top: 15px;
     color: #04bba3;
 }
 
@@ -149,16 +146,18 @@ ul{
 .btn-success{
     background-color: #04bba3;
     border: #04bba3;
-    width: 100px;
+    width: 120px;
     transition: all,0.5s;
+    padding: 10px;
 }
 
 .btn-danger{
     background-color: #8c5acd;
     outline: none;
     border:#8c5acd ;
-    width: 100px;
+    width: 120px;
     transition: all,0.5s;
+    padding: 10px;
 }
 
 .btn-success:hover ,.btn-danger:hover{
@@ -167,12 +166,12 @@ ul{
 
 .slider-pic{
     width: 100%;
-    min-height:700px;
+    height:600px;
     background-image: url(../image/main1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 350px;
+    padding-top: 100px;
     position: relative;
 }
 
