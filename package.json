@@ -1,0 +1,23 @@
+{
+  "name": "corporate-website-tailwind",
+  "version": "1.0.0",
+  "description": "install tailwind in my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darang-elaheh/corporate-website.git"
+  },
+  "author": "elaheh darang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darang-elaheh/corporate-website/issues"
+  },
+  "homepage": "https://github.com/darang-elaheh/corporate-website#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
