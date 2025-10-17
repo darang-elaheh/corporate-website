@@ -74,6 +74,15 @@
 .social-box{
     display: none;
 }
+.btns{
+    order: 2!important;
+}
+.navbar-brand{
+    order: 1!important;
+}
+#navbarNav{
+    order: 3!important;
+}
 }
 
 .entext{
@@ -102,9 +111,9 @@ body{
 }
 .navbar-toggler{
     color: #04bba3;
-    border: 1px solid #04bba3 ;
-}
+    border: 0.1px solid #04bba3 !important;
 
+}
 
 .contact-icon{
     color: #04bba3;    
